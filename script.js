@@ -7,7 +7,7 @@ const cardObjectDefinitions = [
 
 const aceId = 3;
 
-const cardBackImgPath = '/images/card-back-blue.png';
+const cardBackImgPath = 'images/card-back-blue.png';
 
 const cardContainerElem = document.querySelector('.card-container');
 
