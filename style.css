@@ -68,7 +68,7 @@ header {
     width: calc(var(--card-width) * (var(--num-cards) / 2) + var(--card-horizontal-space));
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: var(--card-height) var(--card-height);
     grid-template-areas: "a b"
                          "c d";
     /* border: 1px solid black; */
